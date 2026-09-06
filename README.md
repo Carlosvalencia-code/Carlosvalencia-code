@@ -58,18 +58,34 @@ I don't build tech for the sake of tech; I build **pragmatic, production-ready d
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">💬 Valanze</h3>
+      <h3 align="center">📦 Valanze B2B</h3>
+      <p align="center">
+        <a href="https://github.com/Carlosvalencia-code/Valanzeb2b"><b>View Repository →</b></a>
+      </p>
+      <p><b>Conversational Kardex, Cash Control & Pre-Accounting for Retail & Food Service</b></p>
+      <ul>
+        <li>Open-source Telegram bot replacing traditional $80/mo POS systems with zero learning curve for bodegas, retail shops, and food service.</li>
+        <li>Real-time discrete inventory with <b>Weighted Average Cost (Kardex)</b>, cash drawer shift close (<code>/caja</code>), and strict role separation (Owner vs Staff).</li>
+        <li>Interactive voucher classification (Factura con RUC, Boleta) with automatic 18% IGV breakdown and structured CSV export for external accountants.</li>
+        <li>Production-grade architecture with webhook idempotency (<code>update_id</code> deduplication), Supabase RLS, and immutable audit logs.</li>
+        <li><i>Stack:</i> Node.js, Telegram Bot API, Supabase (PostgreSQL / RPC), Vercel Serverless, Automated Unit Testing.</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3 align="center">💬 Valanze (B2C)</h3>
       <p align="center">
         <a href="https://github.com/Carlosvalencia-code/Valanze"><b>View Repository →</b></a>
       </p>
-      <p><b>Conversational Financial Assistant & Expense Tracker</b></p>
+      <p><b>Conversational Personal Finance Assistant & Expense Tracker</b></p>
       <ul>
-        <li>Practical financial management chatbot for real-time transaction recording and budget categorization.</li>
-        <li>Automated validation, audit trails, structured CSV/PDF reporting, and test coverage.</li>
-        <li>Engineered with product-led documentation, interactive demo, and changelog.</li>
-        <li><i>Stack:</i> Python, NLP Workflows, SQLite, Automated Unit Testing.</li>
+        <li>Telegram-based personal financial assistant for friction-free income/expense tracking and real-time budget visibility.</li>
+        <li>Clean, non-judgmental microcopy architecture designed around behavioral finance, cognitive ease, and instant feedback.</li>
+        <li>Automated monthly summaries, CSV export, and admin metrics dashboard.</li>
+        <li><i>Stack:</i> Node.js, Telegram Bot API, Supabase (PostgreSQL), Vercel Serverless.</li>
       </ul>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
       <h3 align="center">🛡️ CareGuard Onboarding</h3>
       <p align="center">
@@ -80,6 +96,18 @@ I don't build tech for the sake of tech; I build **pragmatic, production-ready d
         <li>Interactive dashboard streamlining worker onboarding, document validation, and security compliance.</li>
         <li>Direct translation of human resources and operations pain points into an intuitive software flow.</li>
         <li><i>Stack:</i> React, TypeScript, Tailwind CSS, Responsive Design.</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3 align="center">⚡ Operations & Workflow Automation</h3>
+      <p align="center">
+        <a href="https://github.com/Carlosvalencia-code"><b>Explore GitHub →</b></a>
+      </p>
+      <p><b>Custom Process Architecture & Business Engineering</b></p>
+      <ul>
+        <li>Designed pragmatic automation pipelines for retail operations, clinic workflows, and accounting handoffs.</li>
+        <li>Focused on bridging non-technical operators with high-leverage cloud architectures (Serverless + PostgreSQL).</li>
+        <li><i>Stack:</i> Python, Node.js, Docker, Webhooks, REST APIs.</li>
       </ul>
     </td>
   </tr>
@@ -93,11 +121,10 @@ I don't build tech for the sake of tech; I build **pragmatic, production-ready d
 
 | Area | Technologies & Frameworks |
 | :--- | :--- |
-| **Backend & AI** | Python, FastAPI, Pydantic, SQLModel, Ollama, OpenAI / Gemini APIs, Whisper STT |
+| **Backend & AI** | Python, FastAPI, Node.js (ESM), Telegram Bot API, Pydantic, SQLModel, Ollama, Whisper STT |
 | **Frontend** | React, TypeScript, Tailwind CSS, Vite, HTML5 / Web Audio API |
-| **Data & Cache** | PostgreSQL, SQLite, Redis, SQLAlchemy |
-| **DevOps & Cloud** | Docker, Docker Compose, Git, GitHub Actions, Linux |
-| **Ops & Management** | Process Mapping, People Operations, Agile, Compliance & Legal Workflows |
+| **Data & Cloud** | PostgreSQL (Supabase / RLS), SQLite, Redis, Vercel Serverless, Docker |
+| **Ops & Management** | Process Mapping, Financial Workflows (Kardex / SUNAT pre-accounting), People Operations, Agile |
 
 </div>
 
